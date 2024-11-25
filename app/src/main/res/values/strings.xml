@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Alfacemania</string>
+    <string name="http_localhost_5189_login">http://localhost:5189/login</string>
+    <string-array name="payment_methods">
+        <item>Cartão de Crédito</item>
+        <item>Cartão de Débito</item>
+        <item>Boleto</item>
+        <item>Pix</item>
+    </string-array>
+</resources>

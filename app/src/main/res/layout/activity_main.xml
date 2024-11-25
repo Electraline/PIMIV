@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_alface2"
+            android:layout_width="93dp"
+            android:layout_height="75dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/text_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="18dp"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:text="O melhor para sua cozinha"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/line_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_below="@id/text_brand"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Título Por que alface mania? -->
+        <TextView
+            android:id="@+id/text_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="18dp"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:text="Por que Alface mania?"
+            android:textSize="18sp" />
+
+        <!-- Texto explicativo -->
+        <TextView
+            android:id="@+id/text_explanation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alface Mania é a escolha perfeita para quem busca frescor e qualidade em sua alimentação. Nossos produtos são cultivados com todo o cuidado, garantindo sabor e saúde em cada folha. Escolha Alface Mania e transforme suas refeições!"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Outra linha tracejada -->
+        <View
+            android:id="@+id/dashed_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_below="@id/text_explanation"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/button_produto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Produto" />
+
+        <Button
+            android:id="@+id/button_quem_somos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quem Somos" />
+
+        <Button
+            android:id="@+id/button_contato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contato" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

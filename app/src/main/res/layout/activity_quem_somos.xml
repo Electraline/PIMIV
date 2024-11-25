@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quem Somos"
+        android:textSize="24sp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/text_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Somos uma startup inovadora no segmento de agricultura urbana, com um foco especial na produção e venda de alface fresca e de alta qualidade. Nosso compromisso é levar aos nossos clientes um produto saudável, sustentável e de confiança, diretamente de nossa fazenda urbana para a sua mesa."
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nossa Missão"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/text_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oferecer alface de qualidade superior, cultivada de maneira sustentável e responsável, utilizando tecnologias modernas que garantem um produto fresco, saboroso e sem o uso de agrotóxicos. Nosso objetivo é transformar a alimentação urbana, promovendo um estilo de vida mais saudável e acessível."
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O que nos diferencia"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/text_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cultivo Urbano e Sustentável: Nosso sistema de cultivo é desenvolvido em ambientes urbanos, utilizando espaços estratégicos para otimizar a produção com o mínimo impacto ambiental."
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/text_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tecnologia e Inovação: Aplicamos tecnologias avançadas que garantem um crescimento mais eficiente das plantas, sem abrir mão da qualidade e do sabor."
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/text_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Produto Fresco e Sem Conservantes: Garantimos que nossa alface chega até você sempre fresca, sem aditivos ou conservantes artificiais."
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nosso compromisso com a qualidade"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/text_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nosso compromisso é proporcionar produtos frescos e confiáveis para todos que buscam uma alimentação mais saudável e conectada com a natureza."
+        android:layout_marginTop="10dp"/>
+
+    <!-- Adicione os componentes necessários para descrever a empresa -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Voltar para Home" />
+</LinearLayout>

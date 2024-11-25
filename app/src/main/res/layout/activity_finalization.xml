@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/orderNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número do Pedido"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/paymentMethodText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Método de pagamento"
+        android:textSize="18sp"
+        android:layout_below="@id/orderNumberText"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/totalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textSize="18sp"
+        android:layout_below="@id/paymentMethodText"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/productsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Produtos Selecionados"
+        android:textSize="18sp"
+        android:layout_below="@id/totalText" />
+</RelativeLayout>

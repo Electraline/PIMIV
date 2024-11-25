@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Produtos"
+            android:textSize="17sp"
+            android:layout_gravity="center"/>
+
+        <!-- Repetir este bloco para cada tipo de alface -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/img_alface1"
+                android:layout_width="77dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:src="@drawable/crespa" />
+
+            <TextView
+                android:id="@+id/txt_nome_alface1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alface Crespa"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/txt_preco_alface1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$ 0,50"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp">
+
+                <Button
+                    android:id="@+id/btn_decrement_alface1"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/txt_quantidade_alface1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"/>
+
+                <Button
+                    android:id="@+id/btn_increment_alface1"
+                    android:layout_width="57dp"
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Fim do bloco repetido -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/img_alface2"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/lisa"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/txt_nome_alface2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alface Lisa"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/txt_preco_alface2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$ 0,50"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp">
+
+                <Button
+                    android:id="@+id/btn_decrement_alface2"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/txt_quantidade_alface2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"/>
+
+                <Button
+                    android:id="@+id/btn_increment_alface2"
+                    android:layout_width="57dp"
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/img_alface3"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/frisada"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/txt_nome_alface3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alface Frisada"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/txt_preco_alface3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$ 0,50"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp">
+
+                <Button
+                    android:id="@+id/btn_decrement_alface3"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/txt_quantidade_alface3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"/>
+
+                <Button
+                    android:id="@+id/btn_increment_alface3"
+                    android:layout_width="57dp"
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/img_alface4"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/mimosa"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/txt_nome_alface4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alface Mimosa"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/txt_preco_alface4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$ 0,50"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp">
+
+                <Button
+                    android:id="@+id/btn_decrement_alface4"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/txt_quantidade_alface4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"/>
+
+                <Button
+                    android:id="@+id/btn_increment_alface4"
+                    android:layout_width="57dp"
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/img_alface5"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/romana"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/txt_nome_alface5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alface Romana"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/txt_preco_alface5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$ 0,50"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp">
+
+                <Button
+                    android:id="@+id/btn_decrement_alface5"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/txt_quantidade_alface5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"/>
+
+                <Button
+                    android:id="@+id/btn_increment_alface5"
+                    android:layout_width="57dp"
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/img_alface6"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/roxa"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/txt_nome_alface6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alface Roxa"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/txt_preco_alface6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$ 0,50"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp">
+
+                <Button
+                    android:id="@+id/btn_decrement_alface6"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/txt_quantidade_alface6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"/>
+
+                <Button
+                    android:id="@+id/btn_increment_alface6"
+                    android:layout_width="57dp"
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Total e botão de finalizar pedido -->
+        <TextView
+            android:id="@+id/txt_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: R$ 0,00"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btn_finalizar_pedido"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="Finalizar Pedido" />
+
+        <Button
+            android:id="@+id/btn_voltar_home"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="Voltar para Home" />
+
+    </LinearLayout>
+</ScrollView>
